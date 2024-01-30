@@ -4,13 +4,13 @@ const Work = ()=>{
 
 
 
-<div className="grid gap-x-8 gap-y-4 grid-cols-1 lg:grid-cols-3">
-  <div className="w-[200px] h-[200px] bg-cyan-400/30 border rounded-lg">01</div>
-  <div className="w-[200px] h-[200px] bg-cyan-400/30 border rounded-lg">02</div>
-  <div className="w-[200px] h-[200px] bg-cyan-400/30 border rounded-lg">03</div>
-  <div className="w-[200px] h-[200px] bg-cyan-400/30 border rounded-lg">04</div>
-  <div className="w-[200px] h-[200px] bg-cyan-400/30 border rounded-lg">05</div>
-  <div className="w-[200px] h-[200px]0 bg-cyan-400/30 border rounded-lg">06</div>
+<div className="grid gap-x-8 gap-y-4 grid-cols-2 lg:grid-cols-3">
+  <div className="w-[150px] h-[150px] bg-cyan-400/30 border rounded-lg">01</div>
+  <div className="w-[150px] h-[150px] bg-cyan-400/30 border rounded-lg">02</div>
+  <div className="w-[150px] h-[150px] bg-cyan-400/30 border rounded-lg">03</div>
+  <div className="w-[150px] h-[150px] bg-cyan-400/30 border rounded-lg">04</div>
+  <div className="w-[150px] h-[150px] bg-cyan-400/30 border rounded-lg">05</div>
+  <div className="w-[150px] h-[150px]0 bg-cyan-400/30 border rounded-lg">06</div>
 </div>
 
 
