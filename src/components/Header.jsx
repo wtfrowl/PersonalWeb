@@ -1,4 +1,4 @@
-import wtfrowl from '../assets/wtfrowl.png'
+import wtfrowl from '../assets/wtfrowl.png';
 import { LiaHelicopterSolid } from "react-icons/lia";
 
 const Header = ()=>{
@@ -7,7 +7,7 @@ const Header = ()=>{
 
        <header className="flex bg-white/20 h-20 justify-between md:justify-evenly items-center">
       <div className="mx-5"><img src={wtfrowl} /></div>
-      <div className="mx-5"><LiaHelicopterSolid  className='curoser-pointer w-[45px] h-[45px] ' /></div>
+      <div className="mx-5"><LiaHelicopterSolid  className='curoser-pointer w-[45px] h-[45px]'/></div>
 
        </header>
         
@@ -15,4 +15,4 @@ const Header = ()=>{
         )
 }
 
-export default Header
+export default Header;

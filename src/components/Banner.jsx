@@ -1,5 +1,4 @@
 import { TypeAnimation } from "react-type-animation"
-import banner_img from '../assets/banner.png'
 const Banner = ()=>{
     return(
         <div id="home" className="h-screen lg:py-24 flex justify-center ">
@@ -20,7 +19,6 @@ const Banner = ()=>{
         
         />
         </div>
-    {/* <img src={banner_img}  className="rounded-full h-[200px]" alt="banner"/> */}
     </div>
            
      
@@ -30,4 +28,4 @@ const Banner = ()=>{
         }
 
 
-export default Banner
+export default Banner;
