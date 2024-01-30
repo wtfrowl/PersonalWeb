@@ -7,7 +7,7 @@ const Header = ()=>{
 
        <header className="flex bg-white/20 h-20 justify-between md:justify-evenly items-center">
       <div className="mx-5"><img src={wtfrowl} /></div>
-      <div className="mx-5"><LiaHelicopterSolid  className='curoser-pointer w-[45px] h-[45px] ' / ></div>
+      <div className="mx-5"><LiaHelicopterSolid  className='curoser-pointer w-[45px] h-[45px] ' /></div>
 
        </header>
         
