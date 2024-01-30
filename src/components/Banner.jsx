@@ -1,7 +1,11 @@
 import {TypeAnimation} from "react-type-animation";
 const Banner = ()=>{
     return(
-        <div id="home" className="h-screen lg:py-24 flex justify-center ">
+        <>
+        <div className="h-10" id="home"></div>
+
+        <div  className="min-h-[85vh] lg:min-h-[78vh] mt-10 lg:py-24 flex justify-center z-0 ">
+           
 <div className="text-[100px]">
            <TypeAnimation sequence={[
             ' Coming Soon',
@@ -19,8 +23,9 @@ const Banner = ()=>{
         
         />
         </div>
-    </div>
-           
+        </div>
+ 
+        </>   
      
         
         
