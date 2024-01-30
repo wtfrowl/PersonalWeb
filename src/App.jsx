@@ -3,7 +3,7 @@ import About from "./components/About"
 import Contact from "./components/Contact"
 import Work from "./components/Work"
 import Banner from "./components/Banner"
-import Header from "./components/header"
+import Header from "./components/Header"
 
 function App() {
 
