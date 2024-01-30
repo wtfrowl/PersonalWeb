@@ -1,6 +1,6 @@
 import {BiHomeAlt, BiUser} from 'react-icons/bi'
 import {BsAndroid, BsClipboardData} from 'react-icons/bs'
-import { Link } from 'react-scroll'
+import {Link} from 'react-scroll'
 const Nav = () => {
 
 return(
