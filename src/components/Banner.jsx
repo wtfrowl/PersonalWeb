@@ -1,4 +1,4 @@
-import { TypeAnimation } from "react-type-animation"
+import {TypeAnimation} from "react-type-animation";
 const Banner = ()=>{
     return(
         <div id="home" className="h-screen lg:py-24 flex justify-center ">
