@@ -1,6 +1,6 @@
 const About = ()=>{
     return(
-        <div id="about" className="py-8 lg:py-24 lg:h-screen flex items-center justify-center text-4xl min-h-[85vh] lg:min-h-[78vh]">
+        <div id="about" className="py-2 lg:py-10 h-[1000px] md:h-screen flex justify-center text-4xl ">
 About us
 
 
