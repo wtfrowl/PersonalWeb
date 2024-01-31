@@ -7,6 +7,7 @@ import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
 import Work from './components/Work.jsx'
 import Layout from './components/Layout.jsx'
+import Chill from './components/Chill.jsx'
 // const router = createBrowserRouter([
 //   {
 //     path:"/",
@@ -26,10 +27,6 @@ import Layout from './components/Layout.jsx'
 //   }]
 //   }
 
-
-
-
-
 // ])
 
 const router = createBrowserRouter(
@@ -39,6 +36,7 @@ const router = createBrowserRouter(
          <Route path="about" element={<About/>}/>
          <Route path="work" element={<Work/>}/>
          <Route path="contact" element={<Contact/>}/>
+         <Route path="chill" element={<Chill/>}/>
     </Route>
   )
 )
