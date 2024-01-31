@@ -1,6 +1,10 @@
 const Contact = ()=>{
     return(
-        <div id="contact" className="py-2 lg:py-10 h-[1000px] md:h-screen flex justify-center text-4xl ">Contact</div>
+        <div  className="py-2 lg:py-10 h-[1000px] md:h-screen">
+        <div className=" flex justify-center">
+        <h1 className="p-4 md:p-0 font-poor text-green-900 text-6xl font-semibold">Contact</h1>
+        </div>
+        </div>
         
         
         )
