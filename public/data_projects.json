@@ -1,17 +1,17 @@
 [
     {
       "name": "Project1",
-      "image" : "./src/assets/project.png",
+      "image" : "./project.png",
       "link":"/notfound"
     },
     {
       "name": "Project2",
-      "image" :"./src/assets/project.png",
+      "image" :"./project.png",
       "link":"/notfound"
     },
     {
       "name": "Project3",
-      "image" : "./src/assets/project.png",
+      "image" : "./project.png",
       "link":"/notfound"
     }
 ]

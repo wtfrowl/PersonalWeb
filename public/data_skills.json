@@ -6,21 +6,21 @@
     },
     {
       "name": "HTML5",
-      "image" : "./src/assets/skills/html5.jpg",
+      "image" : "./skills/html5.jpg",
       "link":"/notfound"
     },
     {
       "name": "ReactJs",
-      "image" : "./src/assets/skills/reactjs.png",
+      "image" : "./skills/reactjs.png",
       "link":"/notfound"
     }, {
       "name": "CSS3",
-      "image" : "./src/assets/skills/css3.jpg",
+      "image" : "./skills/css3.jpg",
       "link":"/notfound"
     }
     , {
       "name": "Redux",
-      "image" : "./src/assets/skills/redux.jpg",
+      "image" : "./skills/redux.jpg",
       "link":"/notfound"
     }
 ]
