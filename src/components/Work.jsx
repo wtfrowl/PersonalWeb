@@ -27,10 +27,10 @@ const Work = ()=>{
             <div  className="py-2 lg:py-10 h-auto min-h-screen">
                 <div className=" flex justify-center">
                  
-                    <h1 className="p-4 md:p-0 font-poor text-green-900 text-6xl md:text-7xl font-semibold">WORK</h1>
+                    <h1 className="p-4 md:p-0 font-poor text-green-900 text-8xl md:text-9xl font-semibold">WORK</h1>
                 </div>
                 <div className="flex items-center flex-col gap-4  mx-auto">
-           <p className="text-black font-poor text-2xl font-bold  rounded-xl"> Work is Proof </p></div>
+           <p className="text-black font-poor text-3xl font-bold  rounded-xl"> Work is Proof </p></div>
     
            {loading ? ( // Display loading Spinner
         <div className="flex items-center justify-center">

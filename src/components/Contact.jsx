@@ -2,7 +2,7 @@ const Contact = ()=>{
     return(
         <div  className="mx-10 py-2 lg:py-10 h-auto min-h-screen">
         <div className=" flex justify-center">
-        <h1 className="p-4 md:p-0 font-poor text-green-900 text-6xl md:text-7xl font-semibold">Contact</h1>
+        <h1 className="p-4 md:p-0 font-poor text-green-900 text-8xl md:text-9xl font-semibold">Contact</h1>
         </div>
 
 <div className="flex items-center flex-col gap-4 mt-6 mx-auto">

@@ -1,4 +1,4 @@
-// import {TypeAnimation} from "react-type-animation";
+import profile from '../../public/profile.jpg'
 const Home = ()=>{
     return(
         <>
@@ -10,7 +10,17 @@ const Home = ()=>{
      <span className="md:w-[700px] text-slate-800 text-2xl text-left font-semibold font-rbt mt-2  text-wrap">
       <p>Aspiring MERN developer with 2 years under my belt, eager to translate knowledge into impactful applications.</p>
 <p className="mt-4 ">Adept in MongoDB, Express, React, and Node.js, actively seeking growth and opportunities to contribute to innovative projects.  Let&#39;s build something remarkable together! 
-</p></span> </div>
+</p>
+<div className="items-center flex justify-center mt-4 md:mt-8">
+<img className="rounded-full h-[200px] w-[200px] border-green-700 border-2 shadow object-cover" src={profile} alt="pic"/></div>
+
+
+</span> 
+
+
+
+
+</div>
 
 
 

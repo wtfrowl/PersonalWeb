@@ -25,10 +25,10 @@ const Skills = ()=>{
   return (
     <div className="py-2 lg:py-10 h-auto min-h-screen">
       <div className="flex justify-center">
-        <h1 className="p-4 md:p-0 font-poor text-green-900 text-6xl md:text-7xl font-semibold">Skills</h1>
+        <h1 className="p-4 md:p-0 font-poor text-green-900 text-8xl md:text-9xl font-semibold">Skills</h1>
       </div>
       <div className="flex items-center flex-col gap-4 mx-auto">
-        <p className="text-black font-poor text-2xl font-bold rounded-xl"> Skills are Tools </p>
+        <p className="text-black font-poor text-4xl font-bold rounded-xl"> Skills are Tools </p>
       </div>
 
 
