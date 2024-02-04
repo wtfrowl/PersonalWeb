@@ -1,0 +1,27 @@
+[
+    {
+      "name": "JavaScript",
+      "image" : "https://bairesdev.mo.cloudinary.net/blog/2023/08/What-Is-JavaScript-Used-For.jpg",
+      "link":"/notfound"
+    },
+    {
+      "name": "HTML5",
+      "image" : "./src/assets/skills/html5.jpg",
+      "link":"/notfound"
+    },
+    {
+      "name": "ReactJs",
+      "image" : "./src/assets/skills/reactjs.png",
+      "link":"/notfound"
+    }, {
+      "name": "CSS3",
+      "image" : "./src/assets/skills/css3.jpg",
+      "link":"/notfound"
+    }
+    , {
+      "name": "Redux",
+      "image" : "./src/assets/skills/redux.jpg",
+      "link":"/notfound"
+    }
+]
+  

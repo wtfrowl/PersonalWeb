@@ -9,7 +9,8 @@ export default {
     extend: {
       fontFamily: {
         poor: ['"Poor Story"', ...defaultTheme.fontFamily.sans],
-
+        rbt: ['"Roboto+Condensed"', ...defaultTheme.fontFamily.sans],
+        
     },
   },
   plugins: [],

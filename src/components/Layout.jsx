@@ -6,8 +6,8 @@ function Layout() {
     return (
       <><div className="bg-gradient-to-b  from-yellow-400 to-green-200  bg-no-repeat bg-cover-overflow-hidden text-white ">
       <Header/>
-      <Nav/>
       <Outlet/>
+      <Nav/>
       </div>
       </>
     )

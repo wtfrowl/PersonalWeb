@@ -15,7 +15,7 @@ return(
         <NavLink  to="work">
         <LiaLaptopCodeSolid className='curoser-pointer w-[45px] h-[45px] p-1'/>
         </NavLink>
-        <NavLink  to="about" > 
+        <NavLink  to="skills" > 
         <BiUser className='curoser-pointer w-[45px] h-[45px] p-1'/>
         </NavLink>
         <NavLink  to="contact" >
