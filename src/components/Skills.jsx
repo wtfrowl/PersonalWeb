@@ -54,7 +54,7 @@ const Skills = () => {
               jsonData.map((item, index) => (
                 <>
                   <div key={index} className="text-xl m-1">
-                    <span className="shadow-inner shadow-[#000000]  rounded-lg p-2  w-full block text-center font-mono font-bold  transition-transform hover:tilt bg-[#3b703c] ">
+                    <span className=" rounded-lg p-2  w-full block text-center font-mono font-bold  transition-transform hover:tilt bg-[#3b703c] ">
                       {item.name}
                     </span>
                   </div>
