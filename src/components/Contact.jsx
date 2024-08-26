@@ -10,10 +10,10 @@ const Contact = ()=>{
 <div className="flex items-center flex-col gap-4 md:mt-6  mx-auto">
    <p className="text-black font-poor text-4xl md:text-5xl font-bold rounded-xl"> Get in touch with Me</p>
           
-<div className="md:mt-5 bg-green-100 p-4 border-2 md:text-3xl text-green-800 h-full break-word">
-<p className="flex items-center gap-2"><BiMailSend  className='curoser-pointer w-[45px] h-[45px] p-1'/> <b>Email:</b> rahulbaloda0725@gmail.com</p>
-<p className="flex items-center gap-2"><BiLogoTwitter className='curoser-pointer w-[45px] h-[45px] p-1'/> <b>Twitter:</b> x.com/@wtfrowl</p>
-<p className="flex items-center gap-2"><BiLogoLinkedin  className='curoser-pointer w-[45px] h-[45px] p-1'/> <b>LinkedIn:</b> linkedin.com/in/rahulbaloda</p>
+<div className="md:mt-5 p-4 md:p-6 bg-[#3b703c]  md:text-3xl h-full break-word  rounded-lg ">
+<p className="flex items-center gap-2"><BiMailSend  className='curoser-pointer w-[45px] h-[45px] p-1'/> <b>Email:</b> <a href="mailto:rahulbaloda0725@gmail.com" target="_blank" rel="noreferrer"> rahulbaloda0725@gmail.com </a></p>
+<p className="flex items-center gap-2"><BiLogoTwitter className='curoser-pointer w-[45px] h-[45px] p-1'/>  <b>Twitter:</b> <a href="https://x.com/wtfrowl" target="_blank" rel="noreferrer">  x.com/@wtfrowl</a></p>
+<p className="flex items-center gap-2"><BiLogoLinkedin  className='curoser-pointer w-[45px] h-[45px] p-1'/> <b>LinkedIn:</b><a href="https://linkedin.com/in/rahulbaloda" target="_blank" rel="noreferrer">  linkedin.com/in/rahulbaloda</a></p>
 <p className="flex items-center gap-2"><BiCurrentLocation  className='curoser-pointer w-[45px] h-[45px] p-1'/> <b>Address:</b> Bengaluru, Karnataka, India</p>
 </div>
             </div>

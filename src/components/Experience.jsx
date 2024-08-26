@@ -2,7 +2,7 @@ const Experience = ()=>{
     return(
         <div  className="mx-10 py-2 lg:py-10 h-auto min-h-screen">
         <div className=" flex justify-center">
-        <h1 className="p-4 md:p-0 font-poor text-green-900 text-8xl md:text-9xl font-semibold">Experience</h1>
+        <h1 className="py-2 md:p-0 font-poor text-green-900 text-8xl md:text-9xl font-semibold">Experience</h1>
         </div>
 
         <div className="flex items-center flex-col gap-4 mx-auto md:mt-2">
