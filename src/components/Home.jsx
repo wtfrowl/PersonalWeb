@@ -31,8 +31,7 @@ const Home = ()=>{
            <h1 className=" mb-4 text-center font-poor text-green-900 text-6xl md:text-8xl font-semibold mt-2">Hi !
             <p className=' typewriter'>I&#39;m Rahul </p></h1>
 
-            <span  className='text-center text-4xl font-poor text-green-800 animate-bounce'>{currentText}</span>
-            <span  className='text-center text-4xl font-poor text-green-800 animate-bounce'>{currentText}</span>
+            <span  className='text-center text-4xl font-poor text-green-800 '>{currentText}</span>
 
 
    {/* <div className="items-center flex justify-center mt-2"> */}

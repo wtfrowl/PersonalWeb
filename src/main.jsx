@@ -9,6 +9,7 @@ import Work from './components/Work.jsx'
 import Layout from './components/Layout.jsx'
 import Chill from './components/Chill.jsx'
 import NotFound from './components/notfound.jsx'
+import Experience from './components/Experience.jsx'
 // const router = createBrowserRouter([
 //   {
 //     path:"/",
@@ -37,6 +38,7 @@ const router = createBrowserRouter(
          <Route path="skills" element={<Skills/>}/>
          <Route path="work" element={<Work/>}/>
          <Route path="contact" element={<Contact/>}/>
+         <Route path="experience" element={<Experience/>}/>
          <Route path="chill" element={<Chill/>}/>
          <Route path='*' element={<NotFound />}/>
     </Route>

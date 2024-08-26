@@ -1,5 +1,5 @@
 import wtfrowl from '../assets/wtfrowl.png';
-import { BiSolidMusic } from "react-icons/bi";
+import {  BiUser } from "react-icons/bi";
 import { NavLink } from 'react-router-dom';
 const Header = ()=>{
     return(
@@ -10,7 +10,7 @@ const Header = ()=>{
     to="/"><img src={wtfrowl} /></NavLink></div>
       <div className="mr-5 md:m-0">
         <NavLink className={({isActive})=> `${isActive?"text-green-900":""}`}
-    to="chill"><BiSolidMusic className='curoser-pointer w-[45px] h-[45px]'/></NavLink></div>
+    to="contact">   <BiUser className='curoser-pointer w-[45px] h-[45px] p-1'/></NavLink></div>
 
        </header>
         

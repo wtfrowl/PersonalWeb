@@ -27,8 +27,8 @@ const Skills = ()=>{
       <div className="flex justify-center">
         <h1 className="p-4 md:p-0 font-poor text-green-900 text-8xl md:text-9xl font-semibold">Skills</h1>
       </div>
-      <div className="flex items-center flex-col gap-4 mx-auto">
-        <p className="text-black font-poor text-4xl font-bold rounded-xl"> Skills are Tools </p>
+      <div className="flex items-center flex-col gap-4 mx-auto md:mt-2">
+        <p className="text-black font-poor text-2xl md:text-5xl  font-bold rounded-xl"> Skills are Earned </p>
       </div>
 
 
@@ -39,8 +39,8 @@ const Skills = ()=>{
       ) ://displaying content
        (
 
-      <div className="mt-2 flex items-center justify-center md:mx-[200px] mb-[200px]"> 
-                  <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-5 md:gap-x-10 md:mt-10">
+      <div className="mt-4 md:mt-6 flex items-center justify-center md:mx-[200px] mb-[200px]"> 
+                  <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-5 md:gap-x-10 ">
           {jsonData &&
             jsonData.map((item, index) => (
               <>

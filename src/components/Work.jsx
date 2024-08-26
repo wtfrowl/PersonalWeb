@@ -29,8 +29,8 @@ const Work = ()=>{
                  
                     <h1 className="p-4 md:p-0 font-poor text-green-900 text-8xl md:text-9xl font-semibold">WORK</h1>
                 </div>
-                <div className="flex items-center flex-col gap-4  mx-auto">
-           <p className="text-black font-poor text-3xl font-bold  rounded-xl"> Work is Proof </p></div>
+                <div className="flex items-center flex-col gap-4 mx-auto md:mt-2">
+           <p className="text-black font-poor text-2xl md:text-5xl font-bold  rounded-xl"> Projects are Proof </p></div>
     
            {loading ? ( // Display loading Spinner
         <div className="flex items-center justify-center">
