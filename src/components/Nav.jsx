@@ -6,7 +6,7 @@ const Nav = () => {
 
 return(
 
-<nav className='fixed bottom-4 md:bottom-16 w-full overflow-hidden z-20'>
+<nav className='fixed bottom-4 md:bottom-8 w-full overflow-hidden z-20'>
 <div className="container mx-auto flex justify-center">
     <div className="w-full bg-green-600/60 border h-[90px] backdrop-blur-md rounded-full max-w-[400px] flex justify-evenly items-center mx-4 lg:mx-0">
         <NavLink to="">

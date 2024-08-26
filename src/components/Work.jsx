@@ -40,11 +40,11 @@ const Work = ()=>{
        (
 
       <div className="mt-5 flex items-center justify-center md:mx-[200px] mb-[200px]"> 
-                  <div className="grid md:grid-cols-3 gap-x-5 md:gap-x-10 ">
+                  <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-x-5 md:gap-x-10 ">
           {jsonData &&
             jsonData.map((item, index) => (
               <>
-<div key={index} className="w-[240px] rounded-xl shadow  mb-6 overflow-hidden">
+<div key={index} className="w-[220px] rounded-xl shadow  mb-6 overflow-hidden">
                     <img className="object-cover md:h-[160px]" src={item.image} alt="project1" />
                     <span className="bg-white/80 block text-center text-black font-mono font-bold">{item.name}</span>
                        <a href={item.link} className=" mb-0 block font-bold text-center bg-green-800/80 p-2 text-white ">View</a>

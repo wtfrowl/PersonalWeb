@@ -1,27 +1,59 @@
 [
-    {
-      "name": "JavaScript",
-      "image" : "https://bairesdev.mo.cloudinary.net/blog/2023/08/What-Is-JavaScript-Used-For.jpg",
-      "link":"/notfound"
-    },
-    {
-      "name": "HTML5",
-      "image" : "./skills/html5.jpg",
-      "link":"/notfound"
-    },
-    {
-      "name": "ReactJs",
-      "image" : "./skills/reactjs.png",
-      "link":"/notfound"
-    }, {
-      "name": "CSS3",
-      "image" : "./skills/css3.jpg",
-      "link":"/notfound"
-    }
-    , {
-      "name": "Redux",
-      "image" : "./skills/redux.jpg",
-      "link":"/notfound"
-    }
+  {
+    "name": "JavaScript"
+  },
+  {
+    "name": "HTML5"
+  },
+  {
+    "name": "React.js"
+  },
+  {
+    "name": "Redux"
+  },
+  {
+    "name": "Node.js"
+  },
+  {
+    "name": "Express.js"
+  },
+  {
+    "name": "MongoDB"
+  },
+  {
+    "name": "HTML/CSS"
+  },
+  {
+    "name": "Tailwind"
+  },
+  {
+    "name": "Linux"
+  },
+  {
+    "name": "Kafka"
+  },
+  {
+    "name": "Docker"
+  },
+  {
+    "name": "Redis"
+  },
+  {
+    "name": "BitBucket"
+  },
+  {
+    "name": "GIT"
+  },
+  {
+    "name": "JSON"
+  },
+  {
+    "name": "Mongoose"
+  },
+  {
+    "name": "REST APIs"
+  },
+  {
+    "name": "Webpack"
+  }
 ]
-  

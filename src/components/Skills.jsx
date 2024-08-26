@@ -40,14 +40,12 @@ const Skills = ()=>{
        (
 
       <div className="mt-5 flex items-center justify-center md:mx-[200px] mb-[200px]"> 
-                  <div className="grid md:grid-cols-3 gap-x-5 md:gap-x-10 ">
+                  <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-5 md:gap-x-10 md:mt-10">
           {jsonData &&
             jsonData.map((item, index) => (
               <>
-<div key={index} className="w-[240px] rounded-xl   mb-6 overflow-hidden shadow">
-                    <img className="object-cover md:h-[160px]" src={item.image} alt="project1" />
-                    <span className="bg-white/80 block text-center text-black font-mono font-bold">{item.name}</span>
-                       {/* <a href={item.link} className=" mb-0 block font-bold text-center bg-yellow-800/80 p-2 text-white ">View</a> */}
+<div key={index} className="text-xl m-1">      
+                    <span className="shadow-inner shadow-[#000000]  rounded-lg p-2  w-full block text-center font-mono font-bold  transition-transform hover:tilt bg-[#3b703c] ">{item.name}</span>
                   </div>
                   
 </>

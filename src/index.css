@@ -8,3 +8,26 @@
   padding: 2px;
     border-radius: 20%;
   }
+
+  .hover\:tilt:hover {
+    transform: rotate(10deg); /* Tilt by 5 degrees */
+  }
+  .transition-transform {
+    transition: transform 0.2s ease; /* Smooth transition for transform */
+  }
+  .typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    
+    animation: 
+      typing 1.5s steps(40, end),
+      blink-caret .25s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
