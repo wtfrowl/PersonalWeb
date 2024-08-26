@@ -39,7 +39,7 @@ const Skills = ()=>{
       ) ://displaying content
        (
 
-      <div className="mt-5 flex items-center justify-center md:mx-[200px] mb-[200px]"> 
+      <div className="mt-2 flex items-center justify-center md:mx-[200px] mb-[200px]"> 
                   <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-5 md:gap-x-10 md:mt-10">
           {jsonData &&
             jsonData.map((item, index) => (
