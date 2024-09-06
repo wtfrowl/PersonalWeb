@@ -1,18 +1,28 @@
 [
     {
-      "name": "Project1",
-      "image" : "./project.png",
-      "link":"/notfound"
+      "name": "Fleet Management Project",
+      "image" : "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D0%26deploymentId%3Ddpl_CVDuwhkXsiUt47htnHEDcyUizv25%26teamId%3Drahuls-projects-0df3d19b%26withStatus%3D1&w=640&q=75&dpl=dpl_8GjgPnAqZvXxJgcAjCuZMmoZstxE",
+      "link":"https://fleet-wise.vercel.app/"
     },
     {
-      "name": "Project2",
-      "image" :"./project.png",
-      "link":"/notfound"
+      "name": "InstantJobs",
+      "image" :"https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_GGL2uFJfRbYmHWzc1vBFKWxc2Gsb%26teamId%3Drahuls-projects-0df3d19b%26withStatus%3D1&w=640&q=75&dpl=dpl_8GjgPnAqZvXxJgcAjCuZMmoZstxE",
+      "link":"https://instantjobs.vercel.app"
     },
     {
-      "name": "Project3",
-      "image" : "./project.png",
-      "link":"/notfound"
+      "name": "GameOn",
+      "image" : "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D0%26deploymentId%3Ddpl_3PyoagYfsQodzLCmVcRSaE3pAWgr%26teamId%3Drahuls-projects-0df3d19b%26withStatus%3D1&w=640&q=75&dpl=dpl_8GjgPnAqZvXxJgcAjCuZMmoZstxE",
+      "link":"https://play-mole.vercel.app/"
+    },
+    {
+      "name": "BaatChat",
+      "image" : "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D1%26deploymentId%3Ddpl_HPqcKgghsAsVCxz2sNZryNuuCjhN%26teamId%3Drahuls-projects-0df3d19b%26withStatus%3D1&w=640&q=75&dpl=dpl_8GjgPnAqZvXxJgcAjCuZMmoZstxE",
+      "link":"https://baatchat.vercel.app/"
+    },
+    {
+      "name": "Ai4Agro",
+      "image" : "https://vercel.com/_next/image?url=%2Fapi%2Fscreenshot%3Fdark%3D0%26deploymentId%3Ddpl_FMSTiMosBVpVqjzP3bkCR9haVt2N%26teamId%3Drahuls-projects-0df3d19b%26withStatus%3D1&w=640&q=75&dpl=dpl_8GjgPnAqZvXxJgcAjCuZMmoZstxE",
+      "link":"https://ai4agro.vercel.app/"
     }
 ]
   
