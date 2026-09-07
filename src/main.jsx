@@ -1,53 +1,28 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
-import Home from './components/Home.jsx'
-import Skills from './components/Skills.jsx'
-import Contact from './components/Contact.jsx'
-import Work from './components/Work.jsx'
-import Layout from './components/Layout.jsx'
-import Chill from './components/Chill.jsx'
-import NotFound from './components/notfound.jsx'
-import Experience from './components/Experience.jsx'
-// const router = createBrowserRouter([
-//   {
-//     path:"/",
-//     element:<Layout/>,
-//     children:[{
-//       path:"",
-//       element:<Banner/>
-//     },
-//   {  path:"Skills",
-//   element:<Skills/>
-//   },
-//   {  path:"contact",
-//   element:<Contact/>
-//   },
-//   {  path:"work",
-//   element:<Work/>
-//   }]
-//   }
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import { Navigate, Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from "react-router-dom";
+import App from "./App.jsx";
+import NotFound from "./components/notfound.jsx";
 
-// ])
-
+// The site is one scrollable scrapbook now. Old routes keep working by
+// jumping to the section they used to be.
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Layout/>}>
-      <Route path='' element={<Home />} />
-         <Route path="skills" element={<Skills/>}/>
-         <Route path="work" element={<Work/>}/>
-         <Route path="contact" element={<Contact/>}/>
-         <Route path="experience" element={<Experience/>}/>
-         <Route path="chill" element={<Chill/>}/>
-         <Route path='*' element={<NotFound />}/>
-    </Route>
+    <>
+      <Route path="/" element={<App />} />
+      <Route path="/work" element={<Navigate to="/#projects" replace />} />
+      <Route path="/skills" element={<Navigate to="/#inventory" replace />} />
+      <Route path="/experience" element={<Navigate to="/#story" replace />} />
+      <Route path="/contact" element={<Navigate to="/#contact" replace />} />
+      <Route path="/chill" element={<Navigate to="/#quests" replace />} />
+      <Route path="*" element={<NotFound />} />
+    </>
   )
-)
+);
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
-
-  </React.StrictMode>,
-)
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
