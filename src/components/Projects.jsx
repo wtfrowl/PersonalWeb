@@ -10,6 +10,7 @@ const skin = {
   blue: { bg: "bg-blue", ink: "text-white", chip: "bg-lime", accent: "#B4FF3A", num: "text-white/25" },
   sunny: { bg: "bg-sunny", ink: "text-ink", chip: "bg-white", accent: "#1E4FFF", num: "text-ink/25" },
   cherry: { bg: "bg-cherry", ink: "text-white", chip: "bg-lime", accent: "#B4FF3A", num: "text-white/30" },
+  grape: { bg: "bg-grape", ink: "text-white", chip: "bg-lime", accent: "#FFD400", num: "text-white/25" },
 };
 
 function Shot({ p, accent }) {
@@ -91,7 +92,7 @@ function Panel({ p, i }) {
         <div className={flip ? "lg:order-2" : ""}>
           <div className="flex flex-wrap items-baseline gap-3">
             <span className={`font-slab text-6xl leading-none sm:text-8xl ${s.num}`}>{p.n}</span>
-            <span className={`chip ${p.live ? "bg-white" : "bg-ink text-cream"}`}>{p.status}</span>
+            <span className={`chip ${p.live ? "bg-white text-ink" : "bg-ink text-cream"}`}>{p.status}</span>
           </div>
 
           <h3 className="mt-1 font-puff text-5xl leading-[0.85] sm:text-7xl">
@@ -180,9 +181,9 @@ export default function Projects() {
             <Emphasis size={34} className="ml-3 inline-block -translate-y-8" />
           </h2>
           <p className="mt-4 max-w-md font-hand text-xl">
-            four of them are live right now. one had a good run. click something — I will know.
+            five are live right now. one had a good run. click something — I will know.
           </p>
-          <Arrow size={90} className="mt-2 rotate-[70deg] opacity-70" />
+          <Arrow size={90} rotate={40} className="mt-2 opacity-70" />
           <Tape className="right-[8%] top-8 hidden rotate-3 sm:block" style={{ position: "absolute" }}>
             no dead links, promise
           </Tape>

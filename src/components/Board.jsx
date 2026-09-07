@@ -29,7 +29,7 @@ export default function Board() {
           </div>
           <p className="max-w-xs font-hand text-xl text-cream/90">
             a permanently messy work-in-progress board. it changes. that is the point.
-            <Arrow size={60} className="mt-1 rotate-[130deg] [&_path]:stroke-lime" />
+            <Arrow size={60} flip rotate={20} className="mt-1 [&_path]:stroke-lime" />
           </p>
         </div>
 

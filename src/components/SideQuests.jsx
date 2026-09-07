@@ -36,7 +36,21 @@ export default function SideQuests() {
                 className="sticker relative bg-cream px-5 py-4 text-ink transition-transform duration-200 hover:!rotate-0 hover:-translate-y-1"
               >
                 <div className="flex items-start justify-between gap-3">
-                  <h3 className="font-slab text-base uppercase leading-tight sm:text-lg">{q.title}</h3>
+                  <h3 className="font-slab text-base uppercase leading-tight sm:text-lg">
+                    {q.link ? (
+                      <a
+                        href={q.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        data-cursor="open it"
+                        className="scribble-link"
+                      >
+                        {q.title} <span className="font-mono text-sm">↗</span>
+                      </a>
+                    ) : (
+                      q.title
+                    )}
+                  </h3>
                   <span className={`chip shrink-0 ${s.chip}`}>{s.label}</span>
                 </div>
                 <p className="mt-2 font-hand text-lg leading-snug text-ink/85">{q.note}</p>
@@ -86,7 +100,7 @@ export default function SideQuests() {
             <div className="flex items-center gap-2 pl-2">
               <Heart size={26} fill="#FFD400" />
               <span className="font-hand text-lg">
-                still here? impressive. contact info below <Arrow size={40} className="inline-block rotate-[35deg] [&_path]:stroke-white" />
+                still here? impressive. contact info below <Arrow size={40} rotate={22} className="inline-block [&_path]:stroke-white" />
               </span>
             </div>
           </div>

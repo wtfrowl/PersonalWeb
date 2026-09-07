@@ -16,7 +16,7 @@ export const me = {
   card: [
     { label: "BUILDING", value: "Web apps, dashboards, small tools that scratch an itch" },
     { label: "INTO", value: "Design, backend plumbing, startups, deeply weird side ideas" },
-    { label: "CURRENTLY", value: "Shipping product dashboards at TCS + tinkering after hours" },
+    { label: "CURRENTLY", value: "Senior Software Engineer at P360 · building for Indian farmers after hours" },
     { label: "BASED IN", value: "Bengaluru, India · IST, permanently" },
   ],
 };
@@ -28,8 +28,8 @@ export const board = [
     tag: "BUILDING",
     color: "lime",
     items: [
-      "A dashboard that finally makes sense of 10+ product feeds",
-      "Schema-validation middleware that yells politely",
+      "Mandi Bhav — more crops, more mandis, faster pages",
+      "Pharma engagement tooling at P360 that does not feel like 2011",
     ],
   },
   {
@@ -45,7 +45,7 @@ export const board = [
   {
     tag: "MAYBE",
     color: "sunny",
-    items: ["A tiny mandi-price app for my hometown", "A CLI nobody asked for"],
+    items: ["A Hindi-first price app for more than just crops", "A CLI nobody asked for"],
   },
   {
     tag: "SOMEDAY",
@@ -83,7 +83,7 @@ export const episodes = [
   {
     ep: "EP. 03",
     title: "TCS",
-    when: "Jul 2021 — present",
+    when: "from Jul 2021",
     where: "Developer · Full-time",
     color: "blue",
     beats: [
@@ -96,13 +96,15 @@ export const episodes = [
   },
   {
     ep: "EP. 04",
-    title: "CURRENT ARC",
-    when: "now",
-    where: "Bengaluru",
+    title: "P360",
+    when: "current",
+    where: "Senior Software Engineer",
+    link: "https://www.p360.com/",
     color: "lime",
     beats: [
-      "Building products end to end, not just tickets.",
-      "Side quests at night. This website is one of them.",
+      "Pharma engagement, AI automation and insights — at the scale where a bad query is somebody's afternoon.",
+      "Building products end to end now, not just tickets.",
+      "Nights belong to the side quests. Mandi Bhav is winning.",
     ],
     sticker: "you are here",
   },
@@ -136,7 +138,7 @@ export const sideQuests = [
   { title: "Whack-a-mole", note: "a game engine, if you squint hard enough", state: "done" },
   { title: "Two Spotify playlists", note: "one to focus, one to absolutely not", state: "ongoing" },
   { title: "A 404 page in Hindi", note: "galat link hein ji — still the best thing I have written", state: "done" },
-  { title: "Mandi price scraper", note: "half a scraper and one very confused cron job", state: "abandoned" },
+  { title: "mandi-bhav.com", note: "started as a scraper and one confused cron job. now it serves 1,508 mandis.", state: "ongoing", link: "https://www.mandi-bhav.com/" },
   { title: "Learning to draw", note: "the doodles on this page are evidence of progress. sort of.", state: "ongoing" },
 ];
 
@@ -146,7 +148,7 @@ export const facts = [
   { k: "LAST THING I BUILT", v: "this page. the doodles took longer than the code." },
   { k: "FAVOURITE TOOL", v: "console.log. I am not sorry." },
   { k: "LEARNING", v: "Postgres, and how to stop over-engineering" },
-  { k: "ASK ME ABOUT", v: "RBAC, schema validation, or why Mongo is not always the answer" },
+  { k: "ASK ME ABOUT", v: "Agmarknet data, WebRTC, RBAC, or why Mongo is not always the answer" },
   { k: "RIDICULOUS STAT", v: "~4 in-progress side projects at any moment. Steady state." },
   { k: "RANDOM THOUGHT", v: "every good product starts as somebody's annoyance" },
 ];

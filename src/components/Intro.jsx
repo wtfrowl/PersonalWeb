@@ -66,7 +66,7 @@ export default function Intro() {
           </div>
 
           <span className="absolute -bottom-9 right-6 z-10 hidden rotate-[-8deg] rounded-full border-2 border-ink bg-white px-3 py-0.5 font-hand text-lg sm:block">
-            collect all 1 <Arrow size={44} className="inline-block rotate-[150deg]" />
+            collect all 1 <Arrow size={44} rotate={180} className="inline-block" />
           </span>
         </div>
 

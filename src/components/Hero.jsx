@@ -73,7 +73,7 @@ export default function Hero() {
             style={px(18)}
           >
             yes, that is my actual name
-            <Arrow size={70} className="mt-1 rotate-[18deg]" />
+            <Arrow size={70} flip rotate={-8} className="mt-1" />
           </span>
         </div>
 
@@ -101,7 +101,7 @@ export default function Hero() {
 
           <div className="relative flex items-end justify-start gap-4 lg:justify-end">
             <SpeechBubble bg="#FFD400" className="mb-6 max-w-[220px] rotate-[-3deg] animate-wobble">
-              currently building: a dashboard that finally makes sense
+              currently building: mandi bhav — 1,508 mandis, in Hindi
             </SpeechBubble>
             <Burst size={isMobile ? 104 : 118} fill="#B4FF3A" className="shrink-0 animate-bob">
               <span className="text-[10px] sm:text-[11px]">

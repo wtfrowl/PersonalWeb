@@ -42,13 +42,17 @@ export const Heart = ({ size = 30, fill = "#FF2E88", className = "", style }) =>
   </svg>
 );
 
-export const Arrow = ({ size = 60, className = "", style, flip = false }) => (
+export const Arrow = ({ size = 60, className = "", style, flip = false, rotate = 0 }) => (
   <svg
     width={size}
     height={size * 0.7}
     viewBox="0 0 60 42"
     className={className}
-    style={{ ...style, transform: `${style?.transform || ""} scaleX(${flip ? -1 : 1})` }}
+    style={{
+      ...style,
+      // rotate then flip, in that order — the arrowhead ends up where you expect
+      transform: `${style?.transform || ""} rotate(${rotate}deg) scaleX(${flip ? -1 : 1})`,
+    }}
     aria-hidden="true"
   >
     <path d="M3 6c14 22 30 30 52 30" {...base} />

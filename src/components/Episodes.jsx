@@ -48,7 +48,17 @@ export default function Episodes() {
                   <span className="chip bg-white text-ink">{e.when}</span>
                 </div>
 
-                <p className="mt-1 font-mono text-[11px] uppercase tracking-wide opacity-80">{e.where}</p>
+                <p className="mt-1 font-mono text-[11px] uppercase tracking-wide opacity-80">
+                  {e.where}
+                  {e.link && (
+                    <>
+                      {" · "}
+                      <a href={e.link} target="_blank" rel="noreferrer" data-cursor="visit" className="scribble-link">
+                        p360.com ↗
+                      </a>
+                    </>
+                  )}
+                </p>
 
                 <ul className="mt-3 space-y-2">
                   {e.beats.map((b) => (
